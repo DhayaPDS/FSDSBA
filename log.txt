@@ -1,0 +1,63 @@
+using credential github
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/RashmiCN/FSDSBA.git # timeout=10
+Cleaning workspace
+ > C:\Program Files\Git\bin\git.exe rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > C:\Program Files\Git\bin\git.exe reset --hard # timeout=10
+ > C:\Program Files\Git\bin\git.exe clean -fdx # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/RashmiCN/FSDSBA.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > C:\Program Files\Git\bin\git.exe fetch --no-tags --force --progress https://github.com/RashmiCN/FSDSBA.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision a34d96c0a5cf8b49318c1f5292fabf6ac01c2571 (master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f a34d96c0a5cf8b49318c1f5292fabf6ac01c2571
+ > C:\Program Files\Git\bin\git.exe branch -a -v --no-abbrev # timeout=10
+ > C:\Program Files\Git\bin\git.exe branch -D master # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -b master a34d96c0a5cf8b49318c1f5292fabf6ac01c2571
+Commit message: "removed junit tests"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk b5d0026cc546ea99a8caf8490fb7da4b6071d068 # timeout=10
+Cleaning workspace
+ > C:\Program Files\Git\bin\git.exe rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > C:\Program Files\Git\bin\git.exe reset --hard # timeout=10
+ > C:\Program Files\Git\bin\git.exe clean -fdx # timeout=10
+Building Frontend..
+
+C:\Program Files (x86)\Jenkins\workspace\FSDSBA_master>cd FinalFrontEnd   && npm i   && npm run-script build 
+
+> node-sass@4.11.0 install C:\Program Files (x86)\Jenkins\workspace\FSDSBA_master\FinalFrontEnd\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Windows\system32\config\systemprofile\AppData\Roaming\npm-cache\node-sass\4.11.0\win32-x64-67_binding.node
+
+> node-sass@4.11.0 postinstall C:\Program Files (x86)\Jenkins\workspace\FSDSBA_master\FinalFrontEnd\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at C:\Program Files (x86)\Jenkins\workspace\FSDSBA_master\FinalFrontEnd\node_modules\node-sass\vendor\win32-x64-67\binding.node
+Testing binary
+Binary is fine
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1142 packages from 1112 contributors and audited 41571 packages in 109.75s
+found 8 vulnerabilities (2 low, 4 moderate, 2 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+> task-tracker@0.0.0 build C:\Program Files (x86)\Jenkins\workspace\FSDSBA_master\FinalFrontEnd
+> ng build
+
+
+Date: 2019-09-21T14:08:34.377Z
+Hash: 8e49359ba4e096ea7907
+Time: 30324ms
+chunk {es2015-polyfills} es2015-polyfills.js, es2015-polyfills.js.map (es2015-polyfills) 283 kB [initial] [rendered]
+chunk {main} main.js, main.js.map (main) 116 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 235 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {scripts} scripts.js, scripts.js.map (scripts) 229 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.17 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.79 MB [initial] [rendered]

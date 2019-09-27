@@ -1,0 +1,102 @@
+Testing Frontend..
+
+C:\Program Files (x86)\Jenkins\workspace\FSDSBA_master>cd FinalFrontEnd   && npm i   && npm test 
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+audited 41571 packages in 27.563s
+found 8 vulnerabilities (2 low, 4 moderate, 2 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+> task-tracker@0.0.0 test C:\Program Files (x86)\Jenkins\workspace\FSDSBA_master\FinalFrontEnd
+> ng test
+
+[32m30 03 2019 19:39:56.766:INFO [karma-server]: [39mKarma v3.1.4 server started at http://0.0.0.0:9876/
+[32m30 03 2019 19:39:56.773:INFO [launcher]: [39mLaunching browsers ChromeHeadless with concurrency unlimited
+[32m30 03 2019 19:39:56.786:INFO [launcher]: [39mStarting browser ChromeHeadless
+[32m30 03 2019 19:40:09.131:INFO [HeadlessChrome 73.0.3683 (Windows 7.0.0)]: [39mConnected on socket F1zTcHSrmmdLjaywAAAA with id 85771560
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 0 of 42 SUCCESS (0 secs / 0 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 1 of 42 SUCCESS (0 secs / 0.648 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 2 of 42 SUCCESS (0 secs / 1.116 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 3 of 42 SUCCESS (0 secs / 1.347 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 4 of 42 SUCCESS (0 secs / 1.42 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 5 of 42 SUCCESS (0 secs / 1.473 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 6 of 42 SUCCESS (0 secs / 1.576 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 7 of 42 SUCCESS (0 secs / 1.578 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 8 of 42 SUCCESS (0 secs / 1.58 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 9 of 42 SUCCESS (0 secs / 1.584 secs)
+[1A[2KLOG: [Object{parentId: 12, parentTaskName: 'LOTR Sprint'}, Object{parentId: 14, parentTaskName: 'GOT Sprint'}, Object{parentId: 13, parentTaskName: 'KKC Sprint'}]
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 9 of 42 SUCCESS (0 secs / 1.584 secs)
+LOG: [Object{parentId: 12, parentTaskName: 'LOTR Sprint'}, Object{parentId: 14, parentTaskName: 'GOT Sprint'}, Object{parentId: 13, parentTaskName: 'KKC Sprint'}]
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 10 of 42 SUCCESS (0 secs / 1.586 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 11 of 42 SUCCESS (0 secs / 1.587 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 12 of 42 SUCCESS (0 secs / 1.587 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 13 of 42 SUCCESS (0 secs / 1.587 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 14 of 42 SUCCESS (0 secs / 1.587 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 15 of 42 SUCCESS (0 secs / 1.587 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 16 of 42 SUCCESS (0 secs / 1.588 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 17 of 42 SUCCESS (0 secs / 1.588 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 18 of 42 SUCCESS (0 secs / 1.589 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 19 of 42 SUCCESS (0 secs / 1.631 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 20 of 42 SUCCESS (0 secs / 1.664 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 21 of 42 SUCCESS (0 secs / 1.688 secs)
+[1A[2KLOG: 'ok control comes here we are on path'
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 21 of 42 SUCCESS (0 secs / 1.688 secs)
+LOG: 'ok control comes here we are on path'
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 22 of 42 SUCCESS (0 secs / 1.711 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 23 of 42 SUCCESS (0 secs / 1.732 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 24 of 42 SUCCESS (0 secs / 1.752 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 25 of 42 SUCCESS (0 secs / 1.765 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 26 of 42 SUCCESS (0 secs / 1.782 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 27 of 42 SUCCESS (0 secs / 1.808 secs)
+[1A[2KLOG: Object{headers: HttpHeaders{normalizedNames: Map{}, lazyUpdate: null, lazyInit: function () { ... }}}
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 27 of 42 SUCCESS (0 secs / 1.808 secs)
+LOG: Object{headers: HttpHeaders{normalizedNames: Map{}, lazyUpdate: null, lazyInit: function () { ... }}}
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 28 of 42 SUCCESS (0 secs / 1.828 secs)
+[1A[2KLOG: '{"parentTaskId":"123","projectId":"111","userId":"121","task":"tseting child","startDate":"2019-03-23T00:00:00.000Z","endDate":"2019-04-23T00:00:00.000Z","priority":10,"status":"NEW"}'
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 28 of 42 SUCCESS (0 secs / 1.828 secs)
+LOG: '{"parentTaskId":"123","projectId":"111","userId":"121","task":"tseting child","startDate":"2019-03-23T00:00:00.000Z","endDate":"2019-04-23T00:00:00.000Z","priority":10,"status":"NEW"}'
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 29 of 42 SUCCESS (0 secs / 1.857 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 30 of 42 SUCCESS (0 secs / 1.881 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 31 of 42 SUCCESS (0 secs / 1.897 secs)
+[1A[2KLOG: 'this is the id1123'
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 31 of 42 SUCCESS (0 secs / 1.897 secs)
+LOG: 'this is the id1123'
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 32 of 42 SUCCESS (0 secs / 1.92 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 33 of 42 SUCCESS (0 secs / 1.944 secs)
+[1A[2KLOG: '1-2-TIM'
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 33 of 42 SUCCESS (0 secs / 1.944 secs)
+LOG: '1-2-TIM'
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 34 of 42 SUCCESS (0 secs / 1.963 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 35 of 42 SUCCESS (0 secs / 1.984 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 36 of 42 SUCCESS (0 secs / 2.005 secs)
+[1A[2KLOG: 'in user service'
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 36 of 42 SUCCESS (0 secs / 2.005 secs)
+LOG: 'in user service'
+[1A[2KLOG: Object{userId: '0', firstName: 'Rashmi', lastName: 'CN', employeeId: '1123', projectId: null, taskId: null}
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 36 of 42 SUCCESS (0 secs / 2.005 secs)
+LOG: Object{userId: '0', firstName: 'Rashmi', lastName: 'CN', employeeId: '1123', projectId: null, taskId: null}
+[1A[2KLOG: 'added user'
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 36 of 42 SUCCESS (0 secs / 2.005 secs)
+LOG: 'added user'
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 37 of 42 SUCCESS (0 secs / 2.035 secs)
+[1A[2KLOG: 'updated'
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 37 of 42 SUCCESS (0 secs / 2.035 secs)
+LOG: 'updated'
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 38 of 42 SUCCESS (0 secs / 2.051 secs)
+[1A[2KLOG: 'deleted'
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 38 of 42 SUCCESS (0 secs / 2.051 secs)
+LOG: 'deleted'
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 39 of 42 SUCCESS (0 secs / 2.068 secs)
+[1A[2KLOG: ' in get user service123'
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 39 of 42 SUCCESS (0 secs / 2.068 secs)
+LOG: ' in get user service123'
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 40 of 42 SUCCESS (0 secs / 2.105 secs)
+[1A[2KLOG: ' in get user service13'
+HeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 40 of 42 SUCCESS (0 secs / 2.105 secs)
+LOG: ' in get user service13'
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 41 of 42 SUCCESS (0 secs / 2.128 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 42 of 42 SUCCESS (0 secs / 2.398 secs)
+[1A[2KHeadlessChrome 73.0.3683 (Windows 7.0.0): Executed 42 of 42 SUCCESS (2.564 secs / 2.398 secs)
+TOTAL: 42 SUCCESS
+TOTAL: 42 SUCCESS
