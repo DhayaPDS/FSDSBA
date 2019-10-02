@@ -33,8 +33,8 @@ describe('UserService', () => {
 
     const userAdd = {
       userId: '0',
-      firstName: 'Rashmi',
-      lastName: 'CN',
+      firstName: 'Dhaya',
+      lastName: 'pdy',
       employeeId: '1123',
       projectId: null,
       taskId: null
@@ -53,8 +53,8 @@ describe('UserService', () => {
 
     const userEdit = {
       userId: '2',
-      firstName: 'Rashmi',
-      lastName: 'Chudamani',
+      firstName: 'Dhaya',
+      lastName: 'Chenn',
       employeeId: '1123',
       projectId: null,
       taskId: null
@@ -72,8 +72,8 @@ describe('UserService', () => {
   it('delete user check', () => {
     const userdel = {
       userId: '2',
-      firstName: 'Rashmi',
-      lastName: 'Chudamani',
+      firstName: 'Dhaya',
+      lastName: 'Chenn',
       employeeId: '1123',
       projectId: null,
       taskId: null

@@ -17,7 +17,6 @@ services:
      - /opt/microcred/mysqldb:/var/lib/mysql  
 
   tasktracker:
-    # image: rashmicn/backend-task-tracker
     build: .
     restart: always
     network_mode: host
